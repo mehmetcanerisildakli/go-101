@@ -1,0 +1,38 @@
+# Go Binary
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go executables and test binary
+*.out
+*.test
+
+# Ignore the vendor directory
+/vendor/
+
+# Ignore any file ending in .cfg
+*.cfg
+
+# Ignore IntelliJ IDEA files
+.idea/
+
+# Ignore DS_Store files
+.DS_Store
+
+# Ignore .env file
+.env
+
+# Ignore logs and temp files
+/log/
+/tmp/
+
+# Ignore binary artifacts
+*.bin
+
+# Ignore GCP credentials file
+*.json
+
+# Ignore local .env files
+.env.local
